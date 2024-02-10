@@ -1,7 +1,18 @@
-import { useState } from "react";
-
 import "./App.css";
-
+/*---------------------*/
+/*------PHOTOS---------*/
+/*---------------------*/
+import computer from "./assets/img/computer.jpeg";
+import dog from "./assets/img/dog.jpeg";
+import html from "./assets/img/html.png";
+import css from "./assets/img/css.png";
+import js from "./assets/img/javascript.png";
+import mongodb from "./assets/img/mongodb.png";
+import react from "./assets/img/react.png";
+import spiderverse from "./assets/img/spiderverse.jpg";
+import mail from "./assets/img/mail.jpg";
+import linkedin from "./assets/img/linkedin.png";
+import github from "./assets/img/github.png";
 const App = () => {
   return (
     <>
@@ -15,14 +26,10 @@ const App = () => {
           <a href="#projects">Projets</a>
           <a href="#contact">Contact</a>
         </nav>
-        <img
-          className="comp"
-          src="/assets/img/computer.jpeg"
-          alt="computer.jpg"
-        />
+        <img className="comp" src={computer} alt="computer.jpeg" />
         <section id="about-me">
           <div className="profile">
-            <img src="src/assets/img/dog.jpeg" alt="" />
+            <img src={dog} alt="" />
             <div>
               <p className="name">Joanan Boureille</p>
               <p className="city">Paris</p>
@@ -40,33 +47,17 @@ const App = () => {
           <h2>Formation</h2>
           <p>Les technologies sur lesquelles je me forme actuellement</p>
           <div className="technos">
-            <img
-              className="logos"
-              src="src/assets/img/html.png"
-              alt="html.jpeg"
-            />
-            <img className="logos" src="src/assets/img/css.png" alt="css.jpg" />
-            <img
-              className="logos"
-              src="src/assets/img/javascript.png"
-              alt="javascript.png"
-            />
+            <img className="logos" src={html} alt="html.jpeg" />
+            <img className="logos" src={css} alt="css.jpg" />
+            <img className="logos" src={js} alt="javascript.png" />
           </div>
           <p>
             J'ai suivi la formation développment web et mobile chez Le Reacteur
             afin d'apprendre à utiliser ces nouvelles technologies
           </p>
           <div className="technos">
-            <img
-              className="logos"
-              src="src/assets/img/mongodb.png"
-              alt="mongodb.png"
-            />
-            <img
-              className="logos"
-              src="src/assets/img/react.png"
-              alt="react.png"
-            />
+            <img className="logos" src={js} alt="mongodb.png" />
+            <img className="logos" src={react} alt="react.png" />
           </div>
         </section>
         <section id="projects">
@@ -77,10 +68,7 @@ const App = () => {
           </p>
           <div className="project-main-bloc">
             <a href="https://papaya-sawine-b8759d.netlify.app" target="_blank">
-              <img
-                src="src/assets/img/into-the-spider-verse-wallpaper-45b90b3ae7f799c3206beb1073e1e93a.jpg"
-                alt="into-the-spiderverse.jpg"
-              />
+              <img src={spiderverse} alt="into-the-spiderverse.jpg" />
             </a>
             <div className="project-bloc">
               <h3>Marvel initiative</h3>
@@ -97,7 +85,7 @@ const App = () => {
           <h2>Contactez-moi</h2>
           <div>
             <div className="contact-bloc">
-              <img src="src/assets/img/mail.jpg" alt="mail.jpg" />
+              <img src={mail} alt="mail.jpg" />
               <p>boureille.joanan@gmail.com</p>
             </div>
             <div className="contact-bloc">
@@ -105,7 +93,7 @@ const App = () => {
                 href="https://www.linkedin.com/in/joanan-boureille-968711250/"
                 target="_blank"
               >
-                <img src="src/assets/img/linkedin.png" alt="linkedin.png" />
+                <img src={linkedin} alt="linkedin.png" />
               </a>
               <a
                 href="https://www.linkedin.com/in/joanan-boureille-968711250/"
@@ -116,7 +104,7 @@ const App = () => {
             </div>
             <div className="contact-bloc">
               <a href="https://github.com/JoananBo" target="_blank">
-                <img src="src/assets/img/github.png" alt="github.png" />
+                <img src={github} alt="github.png" />
               </a>
 
               <a href="https://github.com/JoananBo" target="_blank">
