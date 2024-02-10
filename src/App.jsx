@@ -17,7 +17,7 @@ const App = () => {
         </nav>
         <img
           className="comp"
-          src="src/assets/img/computer.jpeg"
+          src="/assets/img/computer.jpeg"
           alt="computer.jpg"
         />
         <section id="about-me">
