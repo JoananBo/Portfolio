@@ -15,6 +15,7 @@ body {
 p {
   line-height: 30px;
   font-size: 22px;
+  text-align: center;
 }
 h2 {
   font-size: 30px;
@@ -161,6 +162,7 @@ li {
   list-style-type: disc;
   line-height: 30px;
 }
+
 /*-------------------------*/
 /*--------CONTACT----------*/
 /*-------------------------*/
@@ -199,7 +201,8 @@ footer p {
 /*----------------------------*/
 /*--------RESPONSIVE----------*/
 /*----------------------------*/
-@media (min-width: 0px) and (max-width: 768px) {
+
+@media (max-width: 768px) {
   .container {
     width: 700px;
     background-color: white;
