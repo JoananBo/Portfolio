@@ -4,6 +4,7 @@
 
 body {
   background-color: #5c48d2;
+  font-family: "Fira Sans", sans-serif;
 }
 .container {
   width: 1024px;
@@ -12,10 +13,10 @@ body {
   margin: 0 auto;
   /* border: solid 2px yellow; */
 }
+
 p {
   line-height: 30px;
   font-size: 22px;
-  text-align: center;
 }
 h2 {
   font-size: 30px;
@@ -95,7 +96,7 @@ section {
 }
 .profile img {
   width: 250px;
-  height: 250px;
+  height: 275px;
   border-radius: 50%;
   border: #fcc01a solid 3px;
   object-fit: cover;
@@ -161,6 +162,9 @@ li {
   font-size: 22px;
   list-style-type: disc;
   line-height: 30px;
+}
+#projects p {
+  text-align: center;
 }
 
 /*-------------------------*/

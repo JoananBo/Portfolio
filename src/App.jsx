@@ -13,6 +13,7 @@ import spiderverse from "./assets/img/spiderverse.jpg";
 import mail from "./assets/img/mail.jpg";
 import linkedin from "./assets/img/linkedin.png";
 import github from "./assets/img/github.png";
+import avatar from "./assets/img/11_02_2024.jpeg";
 const App = () => {
   return (
     <>
@@ -29,7 +30,7 @@ const App = () => {
         <img className="comp" src={computer} alt="computer.jpeg" />
         <section id="about-me">
           <div className="profile">
-            <img src={dog} alt="" />
+            <img src={avatar} alt="" />
             <div>
               <p className="name">Joanan Boureille</p>
               <p className="city">Paris</p>
