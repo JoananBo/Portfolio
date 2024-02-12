@@ -68,7 +68,7 @@ const App = () => {
             crée des sites originaux et des répliques de sites existants
           </p>
           <div className="project-main-bloc">
-            <a href="https://papaya-sawine-b8759d.netlify.app" target="_blank">
+            <a href="https://marvel-initiative.netlify.app/" target="_blank">
               <img src={spiderverse} alt="into-the-spiderverse.jpg" />
             </a>
             <div className="project-bloc">
