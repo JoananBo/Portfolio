@@ -3,7 +3,7 @@ import "./App.css";
 /*------PHOTOS---------*/
 /*---------------------*/
 import computer from "./assets/img/computer.jpeg";
-import dog from "./assets/img/dog.jpeg";
+
 import html from "./assets/img/html.png";
 import css from "./assets/img/css.png";
 import js from "./assets/img/javascript.png";
@@ -57,7 +57,7 @@ const App = () => {
             afin d'apprendre à utiliser ces nouvelles technologies
           </p>
           <div className="technos">
-            <img className="logos" src={js} alt="mongodb.png" />
+            <img className="logos" src={mongodb} alt="mongodb.png" />
             <img className="logos" src={react} alt="react.png" />
           </div>
         </section>
