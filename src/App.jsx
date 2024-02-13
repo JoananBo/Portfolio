@@ -14,6 +14,7 @@ import mail from "./assets/img/mail.jpg";
 import linkedin from "./assets/img/linkedin.png";
 import github from "./assets/img/github.png";
 import avatar from "./assets/img/11_02_2024.jpeg";
+import chantier from "./assets/img/chantier.jpeg";
 const App = () => {
   return (
     <>
@@ -51,6 +52,8 @@ const App = () => {
             <img className="logos" src={html} alt="html.jpeg" />
             <img className="logos" src={css} alt="css.jpg" />
             <img className="logos" src={js} alt="javascript.png" />
+            <img className="logos" src={mongodb} alt="mongodb.png" />
+            <img className="logos" src={react} alt="react.png" />
           </div>
           <p>
             J'ai suivi la formation développment web et mobile chez Le Reacteur
@@ -68,17 +71,33 @@ const App = () => {
             crée des sites originaux et des répliques de sites existants
           </p>
           <div className="project-main-bloc">
-            <a href="https://marvel-initiative.netlify.app/" target="_blank">
-              <img src={spiderverse} alt="into-the-spiderverse.jpg" />
-            </a>
             <div className="project-bloc">
-              <h3>Marvel initiative</h3>
-              <h4>Projet Full-Stack</h4>
-              <ul>
-                <li>Pagination </li>
-                <li>Barre de recherche</li>
-                <li>Responsive</li>
-              </ul>
+              <a href="https://marvel-initiative.netlify.app/" target="_blank">
+                <img src={spiderverse} alt="into-the-spiderverse.jpg" />
+              </a>
+              <div className="project-text">
+                <h3>Marvel initiative</h3>
+                <h4>Projet Full-Stack</h4>
+                <ul>
+                  <li>Pagination </li>
+                  <li>Barre de recherche</li>
+                  <li>Responsive</li>
+                </ul>
+              </div>
+            </div>
+            <div className="project-bloc">
+              <a href="" target="_blank">
+                <img src={chantier} alt="chantier.jpeg" />
+              </a>
+              <div className="project-text">
+                <h3>Copie de site e-commerce (à venir)</h3>
+                <h4>Projet Full-Stack</h4>
+                <ul>
+                  <li>Création d'une BDD</li>
+                  <li>Sign In/Log In</li>
+                  {/* <li>Responsive</li> */}
+                </ul>
+              </div>
             </div>
           </div>
         </section>
