@@ -32,7 +32,7 @@ const App = () => {
         <section id="about-me">
           <div className="profile">
             <img src={avatar} alt="" />
-            <div>
+            <div className="resp">
               <p className="name">Joanan Boureille</p>
               <p className="city">Paris</p>
             </div>
@@ -61,6 +61,7 @@ const App = () => {
           </p>
           <div className="technos">
             <img className="logos" src={mongodb} alt="mongodb.png" />
+            <img className="logos" src={react} alt="react.png" />
             <img className="logos" src={react} alt="react.png" />
           </div>
         </section>
