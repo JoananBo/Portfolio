@@ -19,7 +19,7 @@ import npm from "./assets/img/npm3.png";
 import postman from "./assets/img/postman-icon.svg";
 import visual from "./assets/img/visual-studio.png";
 import terminal from "./assets/img/terminal.png";
-// import github from "./assets/img/github2.png";
+
 import slack from "./assets/img/slack3.png";
 const App = () => {
   return (

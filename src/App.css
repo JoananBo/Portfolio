@@ -368,10 +368,6 @@ footer p {
     padding: 30px;
   }
   .profile {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* border: solid 2px red; */
     width: 100%;
   }
   .profile img {
@@ -380,24 +376,20 @@ footer p {
     border-radius: 50%;
     border: #fcc01a solid 3px;
     object-fit: cover;
-    /* margin-right: 60px; */
-    /* margin-bottom: 100px; */
-    /* margin-left: 50px; */
   }
   .resp {
     /* border: solid 2px aqua; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: center;
-    /* margin-top: 0px; */
   }
   .name {
     font-size: 18px;
     font-weight: bold;
     color: #190f33;
     margin-bottom: 0px;
-    /* margin-right: 50px; */
+
     /* border: solid 2px yellow; */
   }
   .city {
