@@ -7,7 +7,7 @@ import computer from "./assets/img/computer.jpeg";
 import html from "./assets/img/html.png";
 import css from "./assets/img/css.png";
 import js from "./assets/img/javascript.png";
-import mongodb from "./assets/img/mongodb.png";
+import mongodb from "./assets/img/mongodb3.png";
 import react from "./assets/img/react.png";
 import spiderverse from "./assets/img/spiderverse.jpg";
 import mail from "./assets/img/mail.jpg";
@@ -15,6 +15,12 @@ import linkedin from "./assets/img/linkedin.png";
 import github from "./assets/img/github.png";
 import avatar from "./assets/img/11_02_2024.jpeg";
 import chantier from "./assets/img/chantier.jpeg";
+import npm from "./assets/img/npm3.png";
+import postman from "./assets/img/postman-icon.svg";
+import visual from "./assets/img/visual-studio.png";
+import terminal from "./assets/img/terminal.png";
+// import github from "./assets/img/github2.png";
+import slack from "./assets/img/slack3.png";
 const App = () => {
   return (
     <>
@@ -47,7 +53,11 @@ const App = () => {
         </section>
         <section id="education">
           <h2>Formation</h2>
-          <p>Les technologies sur lesquelles je me forme actuellement</p>
+          <p>
+            {" "}
+            J'ai suivi la formation développment web et mobile chez Le Reacteur
+            afin d'apprendre à utiliser ces différentes technologies.
+          </p>
           <div className="technos">
             <img className="logos" src={html} alt="html.jpeg" />
             <img className="logos" src={css} alt="css.jpg" />
@@ -56,13 +66,15 @@ const App = () => {
             <img className="logos" src={react} alt="react.png" />
           </div>
           <p>
-            J'ai suivi la formation développment web et mobile chez Le Reacteur
-            afin d'apprendre à utiliser ces nouvelles technologies
+            Je me sers également de ces différents outils pour développer mon
+            projet professionnel.
           </p>
           <div className="technos">
-            <img className="logos" src={mongodb} alt="mongodb.png" />
-            <img className="logos" src={react} alt="react.png" />
-            <img className="logos" src={react} alt="react.png" />
+            <img className="logos" src={visual} alt="visual-studio-code.png" />
+            <img className="logos" src={npm} alt="npm.png" />
+            <img className="logos" src={postman} alt="postman.png" />
+            <img className="logos" src={terminal} alt="terminal.png" />
+            <img className="logos" src={slack} alt="slack.png" />
           </div>
         </section>
         <section id="projects">

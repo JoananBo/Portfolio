@@ -412,7 +412,15 @@ footer p {
     color: #190f33;
     margin-bottom: 20px;
   }
-  .myself {
+
+  .technos {
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px red;
+  }
+  .logos {
+    height: 75px;
+    margin: 50px 0 50px 0;
   }
   .project-main-bloc {
     /* border: solid 2px yellow; */
