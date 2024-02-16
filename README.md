@@ -1,9 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Portfolio
+
+Bienvenue sur le portfolio de Joanan Boureille !
+
+Pour installer le nécessaire afin de faire fonctionner ce portfolio, veuillez entrer la commande "yarn" dans le dossier contenant le portfolio.
+
+Puis "yarn dev" pour mettre le site en ligne.
+
+À bientôt !

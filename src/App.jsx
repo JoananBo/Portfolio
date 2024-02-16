@@ -3,7 +3,6 @@ import "./App.css";
 /*------PHOTOS---------*/
 /*---------------------*/
 import computer from "./assets/img/computer.jpeg";
-
 import html from "./assets/img/html.png";
 import css from "./assets/img/css.png";
 import js from "./assets/img/javascript.png";
