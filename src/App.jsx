@@ -18,6 +18,7 @@ import npm from "./assets/img/npm3.png";
 import postman from "./assets/img/postman-icon.svg";
 import visual from "./assets/img/visual-studio.png";
 import terminal from "./assets/img/terminal.png";
+import northflank from "./assets/img/northflank-icon.png";
 
 import slack from "./assets/img/slack3.png";
 const App = () => {
@@ -74,6 +75,7 @@ const App = () => {
             <img className="logos" src={postman} alt="postman.png" />
             <img className="logos" src={terminal} alt="terminal.png" />
             <img className="logos" src={slack} alt="slack.png" />
+            <img className="logos" src={northflank} alt="northflank.png" />
           </div>
         </section>
         <section id="projects">
