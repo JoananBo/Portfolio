@@ -19,6 +19,7 @@ import postman from "./assets/img/postman-icon.svg";
 import visual from "./assets/img/visual-studio.png";
 import terminal from "./assets/img/terminal.png";
 import northflank from "./assets/img/northflank-icon.png";
+import mongo from "./assets/img/mongo.png";
 
 import slack from "./assets/img/slack3.png";
 const App = () => {
@@ -45,37 +46,75 @@ const App = () => {
           </div>
           <h3>À propos de moi</h3>
           <p className="myself">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Accusantium, cupiditate doloribus! Nesciunt, repellat quae quod
-            inventore provident, eaque tempore minima ratione assumenda iure
-            consequatur nihil aliquid? Eos suscipit deleniti quia!
+            Après plus de 10 ans passés à la SNCF, j'ai décidé de donner une
+            nouvelle direction à ma carrière professionnelle en me
+            reconvertissant dans le domaine du développement web. J’ai donc
+            récemment suivi un bootcamp de dix semaines au Reacteur (centre de
+            formation à Paris), où j'ai acquis des compétences et connaissances
+            nécessaires à la création de sites internet.
           </p>
         </section>
         <section id="education">
           <h2>Formation</h2>
           <p>
-            {" "}
-            J'ai suivi la formation développment web et mobile chez Le Reacteur
-            afin d'apprendre à utiliser ces différentes technologies.
+            Voici les technologies que j'ai appris à utiliser lors de ma
+            formation.
           </p>
           <div className="technos">
-            <img className="logos" src={html} alt="html.jpeg" />
-            <img className="logos" src={css} alt="css.jpg" />
-            <img className="logos" src={js} alt="javascript.png" />
-            <img className="logos" src={mongodb} alt="mongodb.png" />
-            <img className="logos" src={react} alt="react.png" />
+            <div className="tech-bloc">
+              <img className="logos" src={html} alt="html.jpeg" />
+              <p>HTML</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={css} alt="css.jpg" />
+              <p>CSS</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={js} alt="javascript.png" />
+              <p>JavaScript</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={mongodb} alt="mongodb.png" />
+              <p>MongoDB</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={react} alt="react.png" />
+              <p>React</p>
+            </div>
           </div>
           <p>
             Je me sers également de ces différents outils pour développer mon
             projet professionnel.
           </p>
           <div className="technos">
-            <img className="logos" src={visual} alt="visual-studio-code.png" />
-            <img className="logos" src={npm} alt="npm.png" />
-            <img className="logos" src={postman} alt="postman.png" />
-            <img className="logos" src={terminal} alt="terminal.png" />
-            <img className="logos" src={slack} alt="slack.png" />
-            <img className="logos" src={northflank} alt="northflank.png" />
+            <div className="tech-bloc">
+              <img
+                className="logos"
+                src={visual}
+                alt="visual-studio-code.png"
+              />
+              <p>Visual Studio Code</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={npm} alt="npm.png" />
+              <p>NPM</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={postman} alt="postman.png" />
+              <p>Postman</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={terminal} alt="terminal.png" />
+              <p>Terminal</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={slack} alt="slack.png" />
+              <p>Slack</p>
+            </div>
+            <div className="tech-bloc">
+              <img className="logos" src={northflank} alt="northflank.png" />
+              <p>Northflank</p>
+            </div>
           </div>
         </section>
         <section id="projects">
