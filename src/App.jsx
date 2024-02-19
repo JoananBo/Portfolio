@@ -87,13 +87,14 @@ const App = () => {
             projet professionnel.
           </p>
           <div className="technos">
-            <div className="tech-bloc">
+            <div className="visual-bloc">
               <img
                 className="logos"
                 src={visual}
                 alt="visual-studio-code.png"
               />
-              <p>Visual Studio Code</p>
+              <p>Visual Studio</p>
+              <p>Code</p>
             </div>
             <div className="tech-bloc">
               <img className="logos" src={npm} alt="npm.png" />
